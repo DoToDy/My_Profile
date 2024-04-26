@@ -1,0 +1,159 @@
+html, body, h1, h2, h3, h4, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+}
+
+
+aside{
+    width: 20em;
+    float:right;
+    margin-top: 10px;
+}
+
+center{
+    text-align: center;
+}
+
+nav{
+    border: 3px solid #333;
+    background-color: #333;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+li a{
+    color: white;
+}
+
+li{
+    display: inline;
+    font-weight: bold;
+    display: left;
+    font-size: 20px;
+}
+
+
+
+aside header{
+    border: 3px solid white;
+    background-color: white;
+}
+
+section{
+    border: 3px solid #666;
+    background-color: #666;
+    text-align: center;
+}
+
+
+.pauth{
+    font-style: italic;
+}
+
+article h3{
+    font-style: bold;
+}
+
+article{
+    
+    background-color: white;
+   
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #666;
+    background-image: url('Images/Gear.png'), url('Images/Gear2.png'), url('Images/lil lil.png'); /* Set background images */
+    background-repeat: no-repeat; /* Prevent images from repeating */
+    background-size: auto 300px, auto 200px; /* Adjust sizes of the images */
+    /* Position the first image slightly off-screen */
+    background-position: 50px top, calc(100% + 100px) bottom, calc(100% + -1050px) bottom;
+    
+}
+
+p a {
+    color: #FF6;
+}
+
+p a:hover {
+    color: #9FF;
+}
+
+.main-header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+
+.header-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-links ul li a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.tm-container {
+    max-width: 600px; /* Adjusted for smaller screen width */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+main {
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #666; /* Added background color to main content area */
+    border-radius: 5px; /* Added border radius for a more modern look */
+}
+
+@media (max-width: 639px) {
+    main {
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+}
+
+.clickable-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clickable-box header {
+    margin-bottom: 10px;
+}
+
+.clickable-box p {
+    margin-bottom: 0;
+}
+
+.clickable-box:hover {
+    background-color: #e0e0e0;
+}
+
+.normal-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+video{
+    align-items: center;
+}
